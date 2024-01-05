@@ -28,8 +28,21 @@ To run this project locally, follow these steps:
 
 # Contributing to HackathonHub
 
-If you are interested in contributing to HackathonHub, please read the [Contribution Guidelines](CONTRIBUTING.md) before getting started.
+If you are interested in contributing to HackathonHub, please read the [Contribution Guidelines](https://github.com/shashaaankkkkk/CodeFlix/blob/main/CONTRIBUTING.md) before getting started.
 
 We welcome all contributions and appreciate your interest in making HackathonHub better!
 
 Happy Contributing! 🚀
+
+
+### License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
+
+## Contact
+
+For questions or feedback, contact [Shashank](https://github.com/shashaaankkkkk) via [Email](shashankshekhar8534@gmail.com).
+
+
