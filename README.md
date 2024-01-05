@@ -20,9 +20,13 @@ To run this project locally, follow these steps:
 2. Set up a virtual environment and install dependencies:
 
    ```bash
+   cd HackathonHub
    virtualenv venv
    source venv/bin/activate (or venv\Scripts\activate on Windows)
    pip install -r requirements.txt
+   python manage.py migrate
+   python manage.py makemigrations
+   python manage.py runserver 
 
 
 
