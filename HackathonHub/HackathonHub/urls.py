@@ -23,7 +23,8 @@ from core   import views as core_view
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('login', auth_view.loginin, name='signin'),
+    path('login', auth_view.Signin, name='signin'),
+    path('logout/',auth_view.signout),
     path("",core_view.index),
 
     path("api/",api_view.hello)
