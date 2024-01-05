@@ -23,3 +23,13 @@ To run this project locally, follow these steps:
    virtualenv venv
    source venv/bin/activate (or venv\Scripts\activate on Windows)
    pip install -r requirements.txt
+
+
+
+# Contributing to HackathonHub
+
+If you are interested in contributing to HackathonHub, please read the [Contribution Guidelines](CONTRIBUTING.md) before getting started.
+
+We welcome all contributions and appreciate your interest in making HackathonHub better!
+
+Happy Contributing! 🚀
