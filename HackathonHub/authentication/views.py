@@ -24,3 +24,15 @@ def Signin(request):
 def signout(request):
     logout(request)
     return redirect("/")
+
+
+def signup(request):
+        if request.method=='POST' :
+            uname=request.POST['username']
+            pword=request.POST['password']
+            emailid=request.POST["email"]
+            myuser = User.objects.create_user(username=uname, email=emailid, password=pword)
+            return render(request , "auth/login.html", {"message":"account succefully created , login now"})
+        return render(request,"auth/register.html" )
+    
+

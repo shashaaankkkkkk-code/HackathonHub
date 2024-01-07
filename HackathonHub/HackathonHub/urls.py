@@ -25,7 +25,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path('login', auth_view.Signin, name='signin'),
     path('logout/',auth_view.signout),
+    path("signup",auth_view.signup),
     path("",core_view.index),
-
     path("api/",api_view.hello)
 ]
